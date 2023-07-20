@@ -1,0 +1,16 @@
+.titulo1 {
+    font-size: 40px;
+    color:red;
+}
+/* rem = utiliza a unidade de medida padrão (no caso, a web de padrão possui 16px, porém podemos estabelecer o padrão */
+.titulo2 {
+    font-size: 2.5rem;
+}
+
+div{
+    font-size:20px;
+}
+/*EM= usa o tamanho do pai, no caso, 20px na div */
+.titulo3 {
+    font-size: 2em;
+}

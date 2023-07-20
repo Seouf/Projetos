@@ -1,0 +1,24 @@
+* {
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+/* height = 100VH = 100% da altura da tela //// Width = 100VW = 100% da largura da tela*/
+.minhadiv {
+    height: 100vh;
+    background-color: red;
+}
+
+.filhodiv {
+    background-color: green;
+    width: 50%;
+    height: 50%;
+}
+
+/* positions
+position = static --> padrão / segue o fluxo da ordem dos elementos normalmente
+position = fixed --> elemento fixo / não segue o fluxo da ordem dos elementos / top,bottom,left,right (distanciamento) para posicionar
+position = sticky --> parecido ao fixed, porém segue ao fluxo normalmente e adota o posicionamento ao chegar no local estipulado
+position = relative --> posicionamento relativo à ordem de elementos ao invés da página
+position = absolute --> caso dentro de um elemento static , desconsidera e usa a página , caso seja outro position, usa o elemento para se posicionar
+*/

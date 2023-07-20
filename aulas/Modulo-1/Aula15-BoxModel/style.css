@@ -1,0 +1,24 @@
+* {
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+/* margin = elementos fora // padding = elementos dentro */
+/* padding = top right bottom left */
+.minhadiv {
+    width: 50%;
+    height: 500px;
+    background-color: red;
+}
+/*
+borders:
+double = 2 bordas
+dotted = pontos
+dashed = riscos
+*/
+/* border-radius:50% = circulo perfeito*/
+.filhodiv {
+    background-color: green;
+    width: 50%;
+    height: 50%;
+}

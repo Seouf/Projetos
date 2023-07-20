@@ -1,0 +1,11 @@
+.pai {
+    width: 50%;
+    height: 500px;
+    background-color: red;
+}
+/* % = leva em consideração o valor do pai */
+.filho {
+    background-color: green;
+    width: 50%;
+    height: 50%;
+}
