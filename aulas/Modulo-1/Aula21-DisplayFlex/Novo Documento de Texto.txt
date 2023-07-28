@@ -1,0 +1,17 @@
+	Display:flex
+este css deve ser usado em uma div PAI, ele se aplica a todas divs FILHO, basicamente, alterando o alinhamento dessas divs para ficarem lado a lado (horizontal), ao invés de uma ordenação de cima para baixo.
+
+flex-direction: row (padrão) ou column
+altera a direção que as divs filhos são ordenadas.
+
+flex-start e flex-end: basicamente o row reverse mas sem alterar a ordem dos itens
+
+
+justify content: afeta row
+center: centro do row
+space-between: separa os elementos ao máximo possivel dentro da div pai
+space-around:espaçamento igual ao between mas com um espaçamento da borda
+space-evenly:space-around mas com todos espaçamentos de mesmo valor
+
+align-item: afeta column
+

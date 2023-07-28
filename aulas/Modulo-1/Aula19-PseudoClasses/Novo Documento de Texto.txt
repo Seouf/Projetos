@@ -1,0 +1,9 @@
+Pseudoclasses mais usadas:
+-Hover
+-Disabled
+
+Pseudoelementos mais usados:
+-Before
+-After
+
+Transition:0s;

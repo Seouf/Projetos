@@ -1,0 +1,7 @@
+Display: inline = mesma linha, sem possibilidade de editar altura e largura
+
+Display: block = quebra de texto
+
+Display: inline-block = possibilita manter altura e largura
+
+Display: none = esconde   

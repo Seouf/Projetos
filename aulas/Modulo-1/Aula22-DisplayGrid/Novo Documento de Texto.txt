@@ -1,0 +1,14 @@
+Assim como o flex, coloca-se no div pai
+
+
+grid-template-column: 1fr 1fr 1fr
+(1fr(fração) = 1 coluna)
+repeat(3,1fr) para nao precisar digitar varias vezes
+grid-template-column: 20% 10% 70%
+(% da div que a coluna vai ocupar)
+
+grid-template-rows
+mesma coisa mas se faz a divisão por linhas ao invés de colunas
+
+column-gap e row-gap
+distanciamento entre colunas e linhas
