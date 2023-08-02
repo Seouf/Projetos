@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+#title{
+    color:#d21617 ;
+    text-shadow:0 0 20px rgba(255, 0, 0, 0.7);
+}
+#contato-container{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+#contato {
+    color: #d21617;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid;
+    border-image: linear-gradient(45deg, red, darkred);
+    border-image-slice: 1;
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
+    margin: 20px;
+  }
+
+#contato form{
+    display: flex;
+    flex-direction: column;
+    color: #d21617;
+}
+
+#contato label{
+    margin-top: 10px;
+}
+
+input{
+    color:white;
+}
+
+textarea{
+    color:white
+}
+
+#contato button{
+    height:40px;
+}

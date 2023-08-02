@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta chaset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./fotos.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="./OIP.jpg" />
+        <nav>
+            <ul>
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <div id="title">
+        <h1>Galeria de Fotos</h1>
+    </div>
+    <div id="gallery-container">
+        <div id="gallery">
+            <img src='data:image/jpeg;base64,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' class="gallery-photos" alt="Foto 1"></img>
+            <img src='https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/01/batman-robert-pattinson-2022.jpg?w=1200&h=675&crop=1' class="gallery-photos" alt="Foto 2"></img>
+            <img src='https://t2.tudocdn.net/614415?w=1920'class="gallery-photos" alt="Foto 3"></img>
+            <img src='https://portalpopline.com.br/wp-content/uploads/2022/02/batman-pre-estreia.jpg?w=640'class="gallery-photos" alt="Foto 4"></img>
+            <img src='https://legadodadc.com.br/wp-content/uploads/2022/03/The-Batman-and-Gil-Colson-at-funeral-legadodadc.webp'class="gallery-photos" alt="Foto 5"></img>
+            <img src='https://upload.wikimedia.org/wikipedia/pt/3/38/The_Batman_poster.jpg' class="gallery-photos" alt="Foto 6"></img>
+            <img src='https://legadodadc.com.br/wp-content/uploads/2022/03/Robert-Pattinson-and-Jeffrey-Wright-in-The-Batman-legadodadc.webp'class="gallery-photos" alt="Foto 7"></img>
+            <img src='https://legadodadc.com.br/wp-content/uploads/2022/03/An-image-of-Alfred-and-Bruce-talking-in-The-Batman-legadodadc.webp'class="gallery-photos" alt="Foto 8"></img>
+            <img src='https://legadodadc.com.br/wp-content/uploads/2022/03/The-Riddler-preparing-duct-tape-in-The-Batman-legadodadc.webp'class="gallery-photos" alt="Foto 9"></img>
+            <img src='https://cdn.ome.lt/26OYOLwmvWuuokPC3e-cJaE42AI=/1200x630/smart/extras/conteudos/knight_RLEceXH.jpg'class="gallery-photos" alt="Foto 10"></img>
+            <img src='https://observatoriodocinema.uol.com.br/wp-content/uploads/2022/04/batman-poster.jpg'class="gallery-photos" alt="Foto 11"></img>
+            <img src='https://opopular.com.br/image/policy:1.2413751:1676222363/image.jpg'class="gallery-photos" alt="Foto 12"></img>
+            <img src='https://cinepop.com.br/wp-content/uploads/2022/03/pinguim-colin-farrell.webp'class="gallery-photos" alt="Foto 13"></img>
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSV4F9s2tXAHvpgde93_1BG3W8psRUgEs201Ubz4HkXTS7bWMa8nw1a2Z5MkCGXui1c7o&usqp=CAU' class="gallery-photos" alt="Foto 14"></img>
+            <img src='https://4kwallpapers.com/images/wallpapers/the-batman-2022-movies-dc-comics-red-background-1125x2436-6775.jpg' class="gallery-photos" alt="Foto 14"></img>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <img style="object-fit: contain;" id="logo" src="./OIP.jpg" />
+        <span>Todos os direitos reservados ©</span>
+        <span>Desenvolvido por: Leonardo Aranda</span>
+
+        <nav class="footer-navigation">
+            <ul class="footer-list">
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </footer>
+</body>

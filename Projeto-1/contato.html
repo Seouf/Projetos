@@ -5,8 +5,9 @@
     <meta chaset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial</title>
+    <title>Contato</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./contato.css">
 </head>
 
 <body>
@@ -29,37 +30,30 @@
             </ul>
         </nav>
     </header>
-
-    <div id="banner"></div>
-    <div id="trailer-container">
-        <div class="content">
-            <video controls class="trailer">
-                <source src="./SnapSave.io-BATMAN  _ Trailer 2 Oficial Legendado _ DC FanDome 2021-(1080p).mp4" type="video/mp4">
-                Seu navegador não possui suporte para vídeos
-            </video>
-            <div id="sinopse">
-                <p class="description">
-                    Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais
-                    sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante solitário se estabelece como a
-                    personificação da vingança para a população.
-                </p>
-                <button class="button">Comprar ingresso</button>
+    <main>
+        <div id="contato-container">
+            <h1 id="title">Contato</h1>
+            <div id="contato">
+                <form method="GET">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" placeholder="Nome..." required/>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="Email..." required/>
+                    <label for="telefone">Telefone</label>
+                    <input type="text" name="telefone" placeholder="(XX)-XXXXX-XXXX" required />
+                    <label for="assunto">Assunto</label>
+                    <input type="text" name="assunto" placeholder="Assunto..." required />
+                    <label for="mensagem">Mensagem</label>
+                    <textarea type="textbox" name="mensagem" placeholder="Mensagem..." rows='4' cols="20" style="display:block; resize: none" required></textarea>
+                    <button class="button" type="submit">Enviar</button>
+                </form>
             </div>
         </div>
-    </div>
-
-    <div class="actor-cards-container">
-        <div class="cards-content">
-            <div class="card banner-1">Robert Pattison - Batman</div>
-            <div class="card banner-2">Zoe Kravitz - Mulher Gato</div>
-            <div class="card banner-3">Jeffrey Wright - Gordon</div>
-        </div>
-    </div>
-
+    </main>
     <footer>
         <img style="object-fit: contain;" id="logo" src="./OIP.jpg" />
-        <span id="copyright">Todos os direitos reservados © </span>
-        <span>Desenvolvido por:<a href="" class="linkedin">Leonardo Aranda</a></span>
+        <span>Todos os direitos reservados ©</span>
+        <span>Desenvolvido por: Leonardo Aranda</span>
 
         <nav class="footer-navigation">
             <ul class="footer-list">
